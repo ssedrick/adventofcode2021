@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// lines, err := readLines("input.test.txt")
-	lines, err := utils.ReadLines("input.txt")
+	lines, err := utils.ReadInts("input.txt")
 
 	if err != nil {
 		log.Fatalf("readlines: %s", err)
